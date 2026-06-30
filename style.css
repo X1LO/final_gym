@@ -1,4 +1,4 @@
-/* ==================== Variables ==================== */
+
 :root {
     --primary-color: #ed563b;
     --secondary-color: #232d39;
@@ -7,7 +7,7 @@
     --hover-color: #ff6b4a;
 }
 
-/* ==================== Reset & Base ==================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@ img {
     max-width: 100%;
 }
 
-/* ==================== Header ==================== */
+
 header {
     position: fixed;
     top: 0;
@@ -81,7 +81,7 @@ nav ul li a.active {
     color: var(--primary-color);
 }
 
-/* ==================== Burger Menu ==================== */
+
 .burger {
     display: none;
     flex-direction: column;
@@ -97,7 +97,6 @@ nav ul li a.active {
     transition: all 0.3s;
 }
 
-/* ==================== Main Banner ==================== */
 .main-banner {
     position: relative;
     height: 100vh;
@@ -145,7 +144,7 @@ nav ul li a.active {
     margin-top: 10px;
 }
 
-/* ==================== Keyframes ==================== */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -157,7 +156,7 @@ nav ul li a.active {
     }
 }
 
-/* ==================== Section Titles ==================== */
+
 .section-title {
     text-align: center;
     margin: 80px 0 40px;
@@ -170,7 +169,7 @@ nav ul li a.active {
     font-style: normal;
 }
 
-/* ==================== Tabs / Services ==================== */
+
 #services {
     padding: 60px 50px;
 }
@@ -238,7 +237,7 @@ nav ul li a.active {
     color: #555;
 }
 
-/* ==================== Trainers Section ==================== */
+
 #trainers {
     padding: 80px 50px;
     background: var(--bg-light);
@@ -288,7 +287,7 @@ nav ul li a.active {
     font-size: 13px;
 }
 
-/* ==================== Map / Contact ==================== */
+
 #contact {
     padding: 60px 50px;
 }
@@ -300,7 +299,6 @@ nav ul li a.active {
     border-radius: 5px;
 }
 
-/* ==================== Footer ==================== */
 footer {
     background: var(--secondary-color);
     color: #fff;
@@ -372,7 +370,7 @@ footer .footer-bottom {
     font-size: 20px;    
 }
 
-/* ==================== Responsive ==================== */
+
 @media screen and (max-width: 420px) {
 
     header {
